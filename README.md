@@ -2,29 +2,36 @@
 This project is a machine learning solution to the problem of head pose estimation. The aim is to use the X and Y coordinates of the face landmarks to determine the pitch yaw roll of head pose. The implementation uses a combination of traditional computer vision techniques and machine learning algorithms.
 ## Getting Started
 To get started with this project, you will need to clone the repository to your local machine. You will also need to install the following dependencies:
-+numpy
-*scipy
-*pandas
-*scikit-learn
-*seaborn
-*mediapipe
-*math *glob *pathlib *xgboost
-
+-numpy
+-scipy
+-pandas
+-scikit-learn
+-xgboost
+-seaborn
+-mediapipe
+-math 
+-glob 
+-pathlib
+You can install these dependencies using pip, by running the following command:
+```sh
+pip install numpy scipy pandas scikit-learn xgboost seaborn mediapipe math glob pathlib
+python main.py
+```
 ## Data
 The data used in this project is a set of annotated face images from different angles and poses. The data can be obtained from the following sources:
 *[AFLW2000](https://link-url-here.org](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/Database/AFLW2000-3D.zip)
 ## Preprocessing
 Before training the model, the data is preprocessed to extract the relevant features and normalize the data. The following preprocessing steps are performed:
 
-  *Aligning the face landmarks
-  *Normalizing the data
+>>-Aligning the face landmarks
+>>-Normalizing the data
   
 ## Training
 The model is trained using a combination of traditional computer vision techniques and machine learning algorithms. The following steps are performed:
 
-  *Extracting features from the preprocessed data
-  *Training a regression model to predict yaw pitch roll using X and Y coordinates of the face landmarks
-  *Evaluating the performance of the model on a validation set
+>>-Extracting features from the preprocessed data
+>>-Training a regression model to predict yaw pitch roll using X and Y coordinates of the face landmarks
+>>-Evaluating the performance of the model on a validation set
   
 ## Results
 The results of the model are evaluated using various metrics, including mean absolute error and r2_score.
