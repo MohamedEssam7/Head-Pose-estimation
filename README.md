@@ -4,14 +4,14 @@ This project is a machine learning solution to the problem of head pose estimati
 To get started with this project, you will need to clone the repository to your local machine. You will also need to install the following dependencies:
 - numpy
 - scipy
--pandas
--scikit-learn
--xgboost
--seaborn
--mediapipe
--math 
--glob 
--pathlib
+- pandas
+- scikit-learn
+- xgboost
+- seaborn
+- mediapipe
+- math 
+- glob 
+- pathlib
 You can install these dependencies using pip, by running the following command:
 ```sh
 pip install numpy scipy pandas scikit-learn xgboost seaborn mediapipe math glob pathlib
@@ -23,15 +23,15 @@ The data used in this project is a set of annotated face images from different a
 ## Preprocessing
 Before training the model, the data is preprocessed to extract the relevant features and normalize the data. The following preprocessing steps are performed:
 
->>-Aligning the face landmarks
->>-Normalizing the data
+>>- Aligning the face landmarks
+>>- Normalizing the data
   
 ## Training
 The model is trained using a combination of traditional computer vision techniques and machine learning algorithms. The following steps are performed:
 
->>-Extracting features from the preprocessed data
->>-Training a regression model to predict yaw pitch roll using X and Y coordinates of the face landmarks
->>-Evaluating the performance of the model on a validation set
+>>- Extracting features from the preprocessed data
+>>- Training a regression model to predict yaw pitch roll using X and Y coordinates of the face landmarks
+>>- Evaluating the performance of the model on a validation set
   
 ## Results
 The results of the model are evaluated using various metrics, including mean absolute error and r2_score.
