@@ -2,7 +2,7 @@
 This project is a machine learning solution to the problem of head pose estimation. The aim is to use the X and Y coordinates of the face landmarks to determine the pitch yaw roll of head pose. The implementation uses a combination of traditional computer vision techniques and machine learning algorithms.
 ## Getting Started
 To get started with this project, you will need to clone the repository to your local machine. You will also need to install the following dependencies:
-\*numpy
++numpy
 *scipy
 *pandas
 *scikit-learn
