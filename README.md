@@ -35,6 +35,8 @@ The model is trained using a combination of traditional computer vision techniqu
   
 ## Results
 The results of the model are evaluated using various metrics, including mean absolute error and r2_score.
+### Demo
+
 
 ## Conclusion
 This project demonstrates how machine learning can be used to solve the problem of head pose estimation. By combining traditional computer vision techniques with machine learning algorithms, it is possible to achieve high accuracy in predicting pitch yaw roll of face pose. The code in this repository can serve as a starting point for building more advanced head pose estimation applications.
