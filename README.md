@@ -35,7 +35,7 @@ The model is trained using a combination of traditional computer vision techniqu
   
 ## Results
 The results of the model are evaluated using various metrics, including mean absolute error and r2_score.
-### Demo
+
 
 
 ## Conclusion
