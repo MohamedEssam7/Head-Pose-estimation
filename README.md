@@ -9,7 +9,9 @@ To get started with this project, you will need to clone the repository to your 
 *seaborn
 *mediapipe
 You can install these dependencies using pip, by running the following command:
+'''
 CommentCell.(@pip install numpy scipy pandas scikit-learn seaborn mediapipe ).()
+'''
 ## Data
 The data used in this project is a set of annotated face images from different angles and poses. The data can be obtained from the following sources:
 *[AFLW2000](https://link-url-here.org](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/Database/AFLW2000-3D.zip)
