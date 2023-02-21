@@ -8,6 +8,7 @@ To get started with this project, you will need to clone the repository to your 
 *scikit-learn
 *seaborn
 *mediapipe
+*math *glob *pathlib *xgboost
 
 ## Data
 The data used in this project is a set of annotated face images from different angles and poses. The data can be obtained from the following sources:
