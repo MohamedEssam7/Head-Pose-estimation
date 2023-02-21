@@ -1,18 +1,14 @@
 # Head-Pose-estimation
-copyCodeBlock('<div>Thundercats</div>')
 This project is a machine learning solution to the problem of head pose estimation. The aim is to use the X and Y coordinates of the face landmarks to determine the pitch yaw roll of head pose. The implementation uses a combination of traditional computer vision techniques and machine learning algorithms.
 ## Getting Started
 To get started with this project, you will need to clone the repository to your local machine. You will also need to install the following dependencies:
-*numpy
+\*numpy
 *scipy
 *pandas
 *scikit-learn
 *seaborn
 *mediapipe
-You can install these dependencies using pip, by running the following command:
-'''
-CommentCell.(@pip install numpy scipy pandas scikit-learn seaborn mediapipe ).()
-'''
+
 ## Data
 The data used in this project is a set of annotated face images from different angles and poses. The data can be obtained from the following sources:
 *[AFLW2000](https://link-url-here.org](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/Database/AFLW2000-3D.zip)
